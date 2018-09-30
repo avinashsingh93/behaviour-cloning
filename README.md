@@ -18,8 +18,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-![Unprocessed_image_from_center][/output_images/center_image.png]
-![flipped_center_image][/output_images/flipped_center_image.png]
+![Unprocessed_image_from_center](/output_images/center_image.png)
+![flipped_center_image](/output_images/flipped_center_image.png)
 
 
 ---
@@ -106,19 +106,19 @@ I have used Udacity datset to train my model. Also i have used the images from l
 
 Below is one of the image from center camera
 
-![center_image][/output_images/center_image.png]
+![center_image](/output_images/center_image.png)
 
 Below are 2 images from left and right camera:
 
-![left_image][/output_images/left_image.png]
-![right_image][/output_images/right_image.png]
+![left_image](/output_images/left_image.png)
+![right_image](/output_images/right_image.png)
 
 
 Then I flipped all theses 3 types of images in order to augment the data:
 
-![center_flipped_image][/output_images/flipped_center_image.png]
-![left_flipped_image][/output_images/left_flipped_image.png]
-![right_flipped_image][/output_images/flipped_right_image.png]
+![center_flipped_image](/output_images/flipped_center_image.png)
+![left_flipped_image](/output_images/left_flipped_image.png)
+![right_flipped_image](/output_images/flipped_right_image.png)
 
 After the data collection, i normalized the data and then I randomly shuffled the data set and put 20% of the data into a validation set. 
 
